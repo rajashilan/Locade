@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Locade</string>
+    <string name="slogan">Eat at your favourite place, with your favourite person.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="reset_password">Reset your password</string>
+    <string name="reset">Reset</string>
+    <string name="back">Back</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="instead">instead.</string>
+    <string name="full_name">Full Name</string>
+    <string name="nick_name">Nick Name</string>
+    <string name="birthday">Birthday</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="work_on_profile">Let\'s work on your profile.</string>
+    <string name="start_by_photos">Start by uploading photos. They should represent your persona in a unique way.</string>
+    <string name="your_spots">Your Spots</string>
+    <string name="view_all">View all</string>
+    <string name="selected_location">Selected location</string>
+    <string name="location_distance">Location distance</string>
+    <string name="user">user</string>
+    <string name="your_people">Your teman</string>
+    <string name="messages">Messages</string>
+    <string name="edit_picture">Edit Profile Picture</string>
+    <string name="msg">I wanna eat nasi kandar with youuuu</string>
+    <string name="logout">Logout</string>
+    <string name="number">Contact Number</string>
+    <string name="connections">Connections</string>
+</resources>

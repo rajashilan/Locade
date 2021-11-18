@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "410105593590",
+    "project_id": "locade-10249",
+    "storage_bucket": "locade-10249.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410105593590:android:8d48c5bbea14709ff7f6d7",
+        "android_client_info": {
+          "package_name": "com.example.locade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410105593590-h62ru7jommr94q07sealqn85o2rtujat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsbypVHKuF5i_34L_j0om3eY6nF1eD5E4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410105593590-h62ru7jommr94q07sealqn85o2rtujat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

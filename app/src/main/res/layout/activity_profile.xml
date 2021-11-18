@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/locations_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/location_icon_inactive"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            />
+
+        <ImageButton
+            android:id="@+id/chats_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/chat_icon_inactive"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            />
+
+        <ImageButton
+            android:id="@+id/profile_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/profile_icon_active"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:cardCornerRadius="5dp"
+        >
+        <ImageView
+            android:id="@+id/image_view_user_profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat ="@drawable/user1"
+            android:scaleType="centerCrop"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button_edit_profile_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/link_button"
+        android:textColor="@color/primary_color"
+        android:text="@string/edit_picture"
+        android:textAllCaps="false"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/text_view_user_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user"
+        android:textSize="26sp"
+        android:textColor="@color/black_primary"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/text_view_user_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/user"
+        android:textSize="20sp"
+        android:textColor="@color/black_secondary"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/link_button"
+        android:textColor="@color/black_tertiary"
+        android:text="@string/logout"
+        android:textAllCaps="false"
+        android:textSize="14sp"/>
+
+</LinearLayout>
